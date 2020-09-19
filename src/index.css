@@ -1,13 +1,19 @@
+@font-face {
+  font-family: 'Krungthep';
+  src: local('./static/fonts/Krungthep.woff2') format('woff2'),
+      local('./static/fonts/Krungthep.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a:visited { 
+  text-decoration: none;
+  color: #29FD2E; 
 }

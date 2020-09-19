@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) {
+  .object-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.objects-container {
+  margin: 2rem;
+}
+
+ul {
+  margin: 0;
+}
+
+ul.dashed {
+  list-style-type: none;
+}
+
+ul.dashed > li {
+  text-indent: -5px;
+}
+
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-link {
+  text-decoration: none;
+  color: #A9CEEF !important;
+  margin: auto;
+}
+
+.object-container {
+  display: flex;
+}
+
+.object-data {
+  flex: 1;
+  margin: auto;
+}
+
+.images-container {
+  flex: 1;
+}
+
+.object-price {
+  text-align: center;
+}

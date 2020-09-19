@@ -1,0 +1,34 @@
+[
+  {
+    "name": "woven chair",
+    "price": 400,
+    "details": [
+      "solid oak construction",
+      "oiled finish",
+      "woven shaker tape seat",
+      "stackable",
+      "beefy arm not included"
+    ],
+    "image": "woven-chair.jpg"
+  },
+  {
+    "name": "corner",
+    "price": 600,
+    "details": [
+      "two-piece bent wood construction",
+      "durable painted",
+      "cork seat"
+    ],
+    "image": "corner.jpg"
+  },
+  {
+    "name": "leather chair",
+    "price": 600,
+    "details": [
+      "solid maple construction",
+      "oiled finish",
+      "durable leather wrapped seat"
+    ],
+    "image": "leather-chair.jpg"
+  }
+]
