@@ -28,6 +28,7 @@
 
 .logo-container {
   flex: 2;
+  margin: 1rem;
 }
 
 img {
@@ -37,17 +38,30 @@ img {
   max-height: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .links-container {
+    width: 100%;
+  }
+
+  .logo-container {
+    display: none;
+  }
+}
+
 .links-container {
   background-color: white;
   border: 6px solid #A9CEEF;
   display: flex;
+  max-width: 100%;
+  min-width: 60%;
+  font-size: 1.5rem;
+  margin: 2rem;
 }
 
 .nav-link {
   background-color: white;
   text-decoration: none;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  margin: auto;
 }
 
 a {

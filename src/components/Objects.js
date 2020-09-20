@@ -59,8 +59,11 @@ export default function Objects() {
                   </div>
                   <div className="images-container">
                     <NavLink className="arrow-link" to={getPrev(index)}>&#x25b2;</NavLink>
-                    <img src={image} alt="Object image"></img>
+                    <img className="object-image" src={image} alt={data.name}></img>
                     <NavLink className="arrow-link" to={getNext(index)}>&#x25bc;</NavLink>
+                  </div>
+                  <div className="order-form-container">
+                    Order form
                   </div>
                 </div>
               </Route>

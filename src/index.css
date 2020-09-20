@@ -7,6 +7,14 @@
   font-display: swap;
 }
 
+
+@media screen and (min-width: 600px) {
+  body {
+    max-height: 100vh;
+    overflow: auto;
+  }
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -15,5 +23,5 @@ body {
 
 a:visited { 
   text-decoration: none;
-  color: #29FD2E; 
+  color: #29FD2E;
 }

@@ -12,7 +12,8 @@ import Home from './components/Home'
 import Objects from './components/Objects'
 import Projects from './components/Projects'
 
-import logo from './logo.svg';
+import logo from './logo.png';
+
 import './App.css';
 import './static/fonts/Krungthep.woff'
 import './static/fonts/Krungthep.woff2'
@@ -25,7 +26,7 @@ function App() {
           <div className="logo-container">
             <NavLink to="/">
               <img src={logo} alt="Odd Numbers Logo" className="App-logo"/>
-              </NavLink>
+            </NavLink>
           </div>
           <div className="links-container">
             <span className="nav-link">

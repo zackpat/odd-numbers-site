@@ -3,6 +3,11 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
+
+  .images-container {
+    padding-top: 2rem;
+    width: 100%;
+  }
 }
 
 .objects-container {
@@ -29,12 +34,19 @@ ul.dashed > li:before {
 .images-container {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .arrow-link {
   text-decoration: none;
   color: #A9CEEF !important;
   margin: auto;
+  size: 8rem;
+}
+
+.object-image {
+  margin: auto;
+  max-height: 50vh;
 }
 
 .object-container {
@@ -46,10 +58,11 @@ ul.dashed > li:before {
   margin: auto;
 }
 
-.images-container {
-  flex: 1;
-}
-
 .object-price {
   text-align: center;
+}
+
+.order-form-container {
+  border: 1px dashed black;
+  flex: 0.6;
 }

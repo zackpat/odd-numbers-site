@@ -1,3 +1,22 @@
 .home-container {
   display: flex;
 }
+
+.object-image {
+  width: auto;
+  height: auto;
+}
+
+.object-image-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.object-price-name {
+  color: #FFFEEC;
+  text-align: center;
+}
+
+.object-image-link:hover > .object-price-name {
+  color: #29FD2E;
+}

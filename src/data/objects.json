@@ -30,5 +30,15 @@
       "durable leather wrapped seat"
     ],
     "image": "leather-chair.jpg"
+  },
+  {
+    "name": "walnut bench",
+    "price": 1500,
+    "details": [
+      "solid walnut construction",
+      "oiled finish",
+      "sustainable wool seat"
+    ],
+    "image": "walnut-bench.jpg"
   }
 ]

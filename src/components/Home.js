@@ -15,8 +15,10 @@ export default function Home() {
           const image = `/images/objects/${data.image}`;
           const path = `/objects/${data.name}`;
           
-          return <NavLink className="object-image-link" to={path}>
-            <img src={image} alt="Object image"></img>
+          return <NavLink key={data.name} className="object-image-link" to={path}>
+            <p className="object-price-name">{data.name}</p>
+            <img className="object-image" src={image} alt={data.name}></img>
+            <p className="object-price-name">{new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(data.price)}</p>
           </NavLink>
         })
       }
