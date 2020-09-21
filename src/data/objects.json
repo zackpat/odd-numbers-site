@@ -9,7 +9,7 @@
       "stackable",
       "beefy arm not included"
     ],
-    "image": "woven-chair.jpg"
+    "image": "woven-chair.png"
   },
   {
     "name": "corner",
@@ -19,7 +19,7 @@
       "durable painted",
       "cork seat"
     ],
-    "image": "corner.jpg"
+    "image": "corner.png"
   },
   {
     "name": "leather chair",
@@ -29,7 +29,7 @@
       "oiled finish",
       "durable leather wrapped seat"
     ],
-    "image": "leather-chair.jpg"
+    "image": "leather-chair.png"
   },
   {
     "name": "walnut bench",
@@ -39,6 +39,6 @@
       "oiled finish",
       "sustainable wool seat"
     ],
-    "image": "walnut-bench.jpg"
+    "image": "walnut-bench.png"
   }
 ]
