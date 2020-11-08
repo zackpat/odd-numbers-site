@@ -1,0 +1,25 @@
+[
+    {
+      "name": "The Woodhouse Lodge",
+      "date": "October 2020-ongoing",
+      "details": "Solid american white oak benches in lengths of seven (3x) and four (1x) feet.",
+      "image": [
+          "woodhouse-sketch-1.png", 
+          "woodhouse-sketch-2.png", 
+          "woodhouse-image-1.png", 
+          "woodhouse-image-2.png", 
+          "woodhouse-image-3.png"
+        ]
+    },
+    {
+      "name": "Phragmites Table",
+      "date": "March 2020-June 2020",
+      "details": "",
+      "image": [
+          "phragmites-table-sketch-1.png", 
+          "phragmites-table-sketch-2.png", 
+          "phragmites-table-image-1.png", 
+          "phragmites-table-image-2.png"
+        ]
+    }
+  ]

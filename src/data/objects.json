@@ -1,6 +1,6 @@
 [
   {
-    "name": "woven chair",
+    "name": "sample 1",
     "price": 400,
     "details": [
       "solid oak construction",
@@ -12,7 +12,7 @@
     "image": "woven-chair.png"
   },
   {
-    "name": "corner",
+    "name": "corner chair",
     "price": 600,
     "details": [
       "two-piece bent wood construction",
@@ -22,7 +22,7 @@
     "image": "corner.png"
   },
   {
-    "name": "leather chair",
+    "name": "sample 2",
     "price": 600,
     "details": [
       "solid maple construction",
@@ -32,12 +32,13 @@
     "image": "leather-chair.png"
   },
   {
-    "name": "walnut bench",
-    "price": 1500,
+    "name": "ned bench",
+    "price": 1750,
     "details": [
-      "solid walnut construction",
-      "oiled finish",
-      "sustainable wool seat"
+      "solid white oak construction",
+      "waxed oil finish",
+      "48 inches long * 24 inches deep * 33 inches high",
+      "16 inch seat height, 20 inch seat depth to spindles, 17 inch backrest height above seat"
     ],
     "image": "walnut-bench.png"
   }
